@@ -1,0 +1,10 @@
+<html>
+<body>
+  <script src="./node_modules/requirejs/require.js"></script>
+  <script>
+    window.requirejs(['node_modules/webpack_demo/dist/dist/add'], function(add) {
+      console.log(add(1, 2));
+    });
+  </script>
+</body>
+</html>
